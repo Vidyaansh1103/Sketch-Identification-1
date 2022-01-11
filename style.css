@@ -1,0 +1,63 @@
+body
+{
+    background-color: limegreen;
+}
+
+h1
+{
+    color: darkblue;
+    background-color: whitesmoke;
+}
+
+#your
+{
+    font-size: large;
+    font-weight: bolder;
+}
+
+#confidence
+{
+    font-size: large;
+    font-weight: bolder;
+}
+
+#score
+{
+    font-size: large;
+    font-weight: bolder;
+    text-align: left;
+}
+
+#Sketch
+{
+    font-size: large;
+    font-weight: bolder;
+    color: red;
+}
+
+#timer
+{
+    font-size: large;
+    font-weight: bolder;
+    text-align: right;
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38px black;}
+    to{box-shadow: 1px 1px 38px white;}
+}
+
+#show_sketch
+{
+    float: right;
+}
